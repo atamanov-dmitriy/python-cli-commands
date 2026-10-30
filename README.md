@@ -5,19 +5,20 @@
    - `source venv/Scripts/activate` - активировать окружение в Bash
 
 3) `pip install -r requirements.txt`
-4) `uvicorn main:app --reload`
+4) - `uvicorn main:app --reload`    - для запуска сервера на FastApi
+   - `python main.py`               - для запуска скрипта
 Проект запустится по url адресу
 `127.0.0.1:8000` или
 `localhost:8000`
 
 
 ### Сохранение GIT
-1) git add .
-2) git commit -m 'Первый коммит'
-3) git log --oneline
-4) git config --global user.email 'your@mail.ru'
-5) git config --global user.name 'Your Name'
-6) git push https:// <token> @ <url> .git  master
+1) `git add .`
+2) `git commit -m 'Первый коммит'`
+3) `git log --oneline`
+4) `git config --global user.email 'your@mail.ru'`
+5) `git config --global user.name 'Your Name'`
+6) `git push https:// <token> @ <url> .git  master`
 
 
 ### Справочная информация
