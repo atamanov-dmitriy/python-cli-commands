@@ -23,7 +23,9 @@
 5) `git log --oneline`
 6) Создаем токен: Аватрка -> Settings -> Developer settings (левое меню, самый низ) -> Personal access token -> Tokens (classic) -> Generate new token -> Generate new token (classic)
 7) Вводим название токена, ставим дату до завтра, выбираем галочки только у repo
-6) `git push https:// <token> @ <url> .git  master`
+8)
+   - Если на учебном компьютере то: `git push https:// <token> @ <url> .git  master`
+   - Если на домашнем: git push origin master -u
 
 
 ### Справочная информация
