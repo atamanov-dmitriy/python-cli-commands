@@ -19,8 +19,8 @@
 1) `git add .`
 2) `git commit -m 'Первый коммит'`
 3) `git log --oneline`
-4) `git config --global user.email 'your@mail.ru'`
-5) `git config --global user.name 'Your Name'`
+4) `git config --global user.email 'your@mail.ru'` (вводить только если не авторизованы локально в git)
+5) `git config --global user.name 'Your Name'` (вводить только если не авторизованы локально в git)
 6) `git push https:// <token> @ <url> .git  master`
 
 
