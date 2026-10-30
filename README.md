@@ -4,12 +4,12 @@
 2) - `.\venv\Scripts\Activate.ps1` - активировать окружение в PowerShell
    - `source venv/Scripts/activate` - активировать окружение в Bash
 
-3) `pip install -r requirements.txt`
+3) `pip install -r requirements.txt`  - установка библиотек пакетным менеджером pip
 4) - `uvicorn main:app --reload`    - для запуска сервера на FastApi
    - `python main.py`               - для запуска скрипта
+
 Проект запустится по url адресу
-`127.0.0.1:8000` или
-`localhost:8000`
+`127.0.0.1:8000` или `localhost:8000`
 
 
 ### Сохранение GIT
