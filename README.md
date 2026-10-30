@@ -21,6 +21,8 @@
 3) `git config --global user.email 'your@mail.ru'` (вводить только если не авторизованы локально в git)
 4) `git config --global user.name 'Your Name'` (вводить только если не авторизованы локально в git)
 5) `git log --oneline`
+6) Создаем токен: Аватрка -> Settings -> Developer settings (левое меню, самый низ) -> Personal access token -> Tokens (classic) -> Generate new token -> Generate new token (classic)
+7) Вводим название токена, ставим дату до завтра, выбираем галочки только у repo
 6) `git push https:// <token> @ <url> .git  master`
 
 
