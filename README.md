@@ -1,3 +1,25 @@
+### Запуск прокекта
+
+1) `python -m venv venv` - создать папку окружения
+2) - `.\venv\Scripts\Activate.ps1` - активировать окружение в PowerShell
+   - `source venv/Scripts/activate` - активировать окружение в Bash
+
+3) `pip install -r requirements.txt`
+4) `uvicorn main:app --reload`
+Проект запустится по url адресу
+`127.0.0.1:8000` или
+`localhost:8000`
+
+
+### Сохранение GIT
+1) git add .
+2) git commit -m 'Первый коммит'
+3) git log --oneline
+4) git config --global user.email 'your@mail.ru'
+5) git config --global user.name 'Your Name'
+6) git push https:// <token> @ <url> .git  master
+
+
 ### Справочная информация
 
 |                                                     |                     |
@@ -6,8 +28,8 @@
 | Посмотреть ссылки на удаленный репозиторий (origin) | `git remote -v`     |
 | Показывает изменения и их статус                    | `git status`        |
 | Показывает коммиты (Аналог сейвов из игр)           | `git log --oneline` |
-| Проверка установки Node package manager             | `npm -v`            |
-| Проверка установки Node                             | `node -v`           |
+| Проверка установки Python                           | `python --version`  |
+| Проверка установки Pip                              | `pip --version`     |
 
 ### Подготовить сохранение
 
@@ -32,10 +54,8 @@
 |                                                                               |                                                                        |
 | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | Открыть приложение в VS Code                                                  | `code .`                                                               |
-| Показывает доступные команды                                                  | `npm run`                                                              |
-| Устанавливает необходимые пакеты                                              | `npm ci` (или `npm i`)                                                 |
-| Создать проект на React<br>Пример команды выше                                | `npm init react-app <название-проекта>`<br>`npm init react-app my-app` |
-| Запустить проект<br>Запущенный проект будет доступен по адресу localhost:3000 | `npm start` (или `npm run start`)                                      |
+| Устанавливает необходимые пакеты                                              | `python -m venv venv`                                                  |
+
 
 ### PowerShell и Bash
 
