@@ -1,5 +1,6 @@
 ### Запуск прокекта
 
+0) git clone <url-адрес репозитория>.git  - скопируем репозиторий на свой компьютер
 1) `python -m venv venv` - создать папку окружения
 2) - `.\venv\Scripts\Activate.ps1` - активировать окружение в PowerShell
    - `source venv/Scripts/activate` - активировать окружение в Bash
