@@ -2,24 +2,21 @@
 
 1) Создайте папку с проектом (название папки любое, например FastApi)
 2) Внутри папки создайте два файла:
-  - main.py
-  - requirements.txt
+    - main.py
+       ```
+      from fastapi import FastAPI
+      
+      app = FastAPI()
+      
+      @app.get("/")
+      def read_root():
+          return {"message": "Привет, FastAPI!"}
+      ```
+    - requirements.txt
+      ```
+      fastapi[standard]
+      ```
 
-### main.py
-```
-from fastapi import FastAPI
-
-app = FastAPI()
-
-@app.get("/")
-def read_root():
-    return {"message": "Привет, FastAPI!"}
-```
-
-### requirements.txt
-```
-fastapi[standard]
-```
 
 
 4) Откройте папку в VSCode
